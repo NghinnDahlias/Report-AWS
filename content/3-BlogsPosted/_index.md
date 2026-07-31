@@ -1,22 +1,25 @@
 ---
 title: "Blogs Posted"
-date: 2024-01-01
+date: 2026-08-01
 weight: 3
 chapter: false
 pre: " <b> 3. </b> "
 ---
 
 {{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
+⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report.
 {{% /notice %}}
 
-This section will list and introduce the blogs you have posted to [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). For example:
+This section lists the blogs posted during the internship and summarizes the main technical idea of each article.
 
-###  [Blog 1 - SESSION POLICIES IN AMAZON EKS POD IDENTITY](3.1-Blog1/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+### [Blog 1 - Why does an IAM role with AWS service permissions still not work?](3.1-Blog1/)
 
-###  [Blog 2 - ...](3.2-Blog2/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+This blog explains why an IAM role can appear to have the correct permissions and still fail when used by an AWS service. It focuses on the relationship between **Trust Policy**, **Permission Policy**, and the user's `iam:PassRole` permission when configuring AWS resources.
 
-###  [Blog 3 - ...](3.3-Blog3/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+### [Blog 2 - Why is REST API not always the best choice? The power of Pub/Sub and MQTT in distributed systems](3.2-Blog2/)
+
+This blog compares the traditional synchronous HTTP/REST model with the Publish/Subscribe approach, especially in systems that process real-time telemetry from many devices. It highlights why **Pub/Sub** and **MQTT** are often better suited for event-driven, loosely coupled architectures.
+
+### [Blog 3 - Session policies in Amazon EKS Pod Identity](3.3-Blog3/)
+
+This blog introduces the **session policies** feature in Amazon EKS Pod Identity, showing how IAM permissions can be narrowed per pod without creating many separate IAM roles. It emphasizes the principle of least privilege and why this feature is useful in large Kubernetes environments.

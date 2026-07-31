@@ -1,11 +1,10 @@
 ---
-
 title: "Giới thiệu"
-date: 2026-31-07
+date: 2026-07-31
 weight: 1
 chapter: false
 pre: " <b> 5.1. </b> "
-----------------------
+---
 
 #### Mục tiêu workshop
 

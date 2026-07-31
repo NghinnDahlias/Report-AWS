@@ -20,6 +20,8 @@ Local AQI Forecasting & Alert System là hệ thống thu thập, lưu trữ, x�
 
 Trong phiên bản đầu tiên, nhóm sử dụng dữ liệu lịch sử từ OpenAQ để xây dựng chương trình mô phỏng nhiều trạm quan trắc. Dữ liệu telemetry được gửi qua MQTT đến AWS IoT Core, đi qua Amazon Data Firehose và được lưu trữ trên Amazon S3 theo mô hình data lake.
 
+Tham chiếu mã nguồn và dữ liệu mô phỏng: [NghinnDahlias/AWS-FCJ-local_aqi_forecast](https://github.com/NghinnDahlias/AWS-FCJ-local_aqi_forecast)
+
 Dữ liệu sau đó được làm sạch và chuẩn hóa bằng Amazon SageMaker Processing. Mô hình dự báo chuỗi thời gian được huấn luyện và triển khai trên Amazon SageMaker. Một backend FastAPI chạy trên Amazon EC2 cung cấp API truy vấn kết quả dự báo và kích hoạt Amazon SNS để gửi email cảnh báo khi giá trị PM2.5 dự báo vượt ngưỡng an toàn.
 
 Phiên bản MVP dự kiến hỗ trợ 3 trạm mô phỏng, dự báo PM2.5 trong 24 giờ tiếp theo và gửi cảnh báo qua email. Kiến trúc được thiết kế theo hướng có thể mở rộng thêm số lượng trạm, chỉ số môi trường và kênh thông báo ở các giai đoạn sau.
@@ -51,6 +53,8 @@ Telemetry Simulator
 -> FastAPI on EC2
 -> Amazon SNS Email
 ```
+
+![Kien truc tong the Local AQI Forecasting](/images/2-Proposal/5.3-devops-local-aqi-final-architecture.png)
 
 Các chức năng chính của hệ thống gồm:
 
@@ -121,6 +125,8 @@ Hệ thống được thiết kế theo hướng event-driven kết hợp data p
 ##### Nguồn dữ liệu và Simulator
 
 Nguồn dữ liệu chính là OpenAQ Dataset. Dữ liệu lịch sử được làm sạch và đưa vào Python Simulator để mô phỏng hoạt động của các trạm quan trắc.
+
+Repo tham chiếu cho pipeline xử lý dữ liệu và simulator: [NghinnDahlias/AWS-FCJ-local_aqi_forecast](https://github.com/NghinnDahlias/AWS-FCJ-local_aqi_forecast)
 
 Phiên bản MVP sử dụng 3 trạm mô phỏng. Mỗi message dự kiến chứa các trường chính:
 
@@ -568,3 +574,7 @@ Sau khi hoàn thành, hệ thống dự kiến đạt được:
 Dự án thể hiện khả năng kết hợp IoT, data engineering, machine learning và cloud application thành một hệ thống hoàn chỉnh.
 
 Thay vì chỉ hiển thị chất lượng không khí tại thời điểm hiện tại, hệ thống giúp người dùng chủ động hơn nhờ khả năng dự báo và cảnh báo sớm. Kiến trúc này cũng tạo nền tảng để tiếp tục tích hợp dữ liệu từ cảm biến thực, mở rộng phạm vi quan trắc và phát triển thành một ứng dụng hỗ trợ sức khỏe cộng đồng trong tương lai.
+
+### 9. Tài liệu tham khảo
+
+- GitHub repository: [NghinnDahlias/AWS-FCJ-local_aqi_forecast](https://github.com/NghinnDahlias/AWS-FCJ-local_aqi_forecast)

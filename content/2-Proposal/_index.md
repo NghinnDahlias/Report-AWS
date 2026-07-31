@@ -20,6 +20,8 @@ The Local AQI Forecasting & Alert System is designed to collect, store, process,
 
 In the first version, the team uses historical data from OpenAQ to build a simulator for multiple monitoring stations. Telemetry data is sent through MQTT to AWS IoT Core, routed through Amazon Data Firehose, and stored on Amazon S3 using a data lake approach.
 
+Reference implementation and simulator repository: [NghinnDahlias/AWS-FCJ-local_aqi_forecast](https://github.com/NghinnDahlias/AWS-FCJ-local_aqi_forecast)
+
 The data is then cleaned and standardized with Amazon SageMaker Processing. A time-series forecasting model is trained and deployed on Amazon SageMaker. A FastAPI backend running on Amazon EC2 provides forecast APIs and triggers Amazon SNS to send email alerts whenever forecasted PM2.5 values exceed the configured safety threshold.
 
 The MVP is expected to support 3 simulated stations, generate 24-hour PM2.5 forecasts, and send alerts by email. The architecture is designed so it can later scale to more stations, more environmental indicators, and additional notification channels.
@@ -51,6 +53,8 @@ Telemetry Simulator
 -> FastAPI on EC2
 -> Amazon SNS Email
 ```
+
+![Final architecture of the Local AQI Forecasting system](/images/2-Proposal/5.3-devops-local-aqi-final-architecture.png)
 
 The main system capabilities include:
 
@@ -121,6 +125,8 @@ The system follows an event-driven architecture combined with a structured data 
 ##### Data Source and Simulator
 
 The main data source is the OpenAQ dataset. Historical data is preprocessed and fed into a Python simulator to mimic the behavior of monitoring stations.
+
+Reference repository for the simulator and data pipeline: [NghinnDahlias/AWS-FCJ-local_aqi_forecast](https://github.com/NghinnDahlias/AWS-FCJ-local_aqi_forecast)
 
 The MVP uses 3 simulated stations. Each message is expected to contain the following key fields:
 
@@ -568,3 +574,7 @@ After completion, the system is expected to achieve the following:
 The project demonstrates how IoT, data engineering, machine learning, and cloud application components can be combined into a complete system.
 
 Instead of only showing current air quality conditions, the system helps users act more proactively through short-term forecasting and early alerts. The architecture also creates a foundation for integrating real sensor data later, expanding monitoring coverage, and evolving into a future application that supports community health and environmental awareness.
+
+### 9. References
+
+- GitHub repository: [NghinnDahlias/AWS-FCJ-local_aqi_forecast](https://github.com/NghinnDahlias/AWS-FCJ-local_aqi_forecast)

@@ -38,6 +38,8 @@ Kiem tra Firehose da duoc cau hinh de:
 raw/telemetry/
 ```
 
+![Lược đồ message telemetry](/images/5-Workshop/5.4-Ingestion/5.4-Message-schema.png)
+
 ---
 
 ### Buoc 2: Cau hinh bao mat AWS IoT Core
@@ -242,6 +244,10 @@ Chay script simulator de bat dau gui du lieu:
 python simulator.py
 ```
 
+![Station gửi dữ liệu vào Firehose](/images/5-Workshop/5.4-Ingestion/5.4-station-sent-data-to-Firehouse.png)
+
+![Record được gửi thành công](/images/5-Workshop/5.4-Ingestion/5.4-record%20sent.png)
+
 #### Kiem tra metric
 
 Truy cap:
@@ -298,6 +304,8 @@ Vi du ket qua kiem thu:
 ```text
 Firehose da nhan 37 records va ghi thanh cong mot object da duoc buffer xuong Amazon S3.
 ```
+
+![Firehose ghi dữ liệu đã buffer xuống S3](/images/5-Workshop/5.4-Ingestion/5.4-Firehouse%20received%2037%20records%20and%20successfully%20delivered%20one%20buffered%20object%20to%20S3.png)
 
 #### Ket qua can chung minh
 

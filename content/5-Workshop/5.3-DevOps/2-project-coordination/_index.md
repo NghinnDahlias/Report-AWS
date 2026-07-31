@@ -50,6 +50,10 @@ Done
 
 A task is only moved to `Done` when it has a real output and supporting evidence. If a task is blocked, the team must state clearly which person, resource, or dependency is causing the blockage.
 
+![GitHub project board](/images/5-Workshop/5.3-DevOps/5.3-2-github-project-board.png)
+
+![GitHub task example](/images/5-Workshop/5.3-DevOps/5.3-2-github-task-example.png)
+
 ## 3. Dependency & Integration Coordination
 
 The main dependency flow of the project is:
@@ -134,6 +138,8 @@ Documentation is grouped by content type:
 - test plan
 - demo script
 - evidence checklist
+
+![Project docs structure](/images/5-Workshop/5.3-DevOps/5.3-2-project-docs-structure.png)
 
 ## 6. Shared Definition of Done
 

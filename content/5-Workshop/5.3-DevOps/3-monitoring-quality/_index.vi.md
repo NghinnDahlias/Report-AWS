@@ -45,25 +45,7 @@ Log location:
 Action đang thực hiện:
 ```
 
-{{% notice info %}}
-📸 **Ảnh cần chụp 01 — Firehose Monitoring**
-
-Chụp metric thật như Incoming records hoặc Delivery to S3.
-
-**Tên ảnh:** `firehose-monitoring.png`
-
-**Codex chèn ảnh sau phần Monitoring & Logging.**
-{{% /notice %}}
-
-{{% notice info %}}
-📸 **Ảnh cần chụp 02 — CloudWatch Logs**
-
-Chụp một log group hoặc log stream có event thật.
-
-**Tên ảnh:** `cloudwatch-log-events.png`
-
-**Codex chèn ngay sau ảnh Firehose Monitoring.**
-{{% /notice %}}
+![CloudWatch log events](/images/5-Workshop/5.3-DevOps/5.3-3-cloudwatch-log-events.png)
 
 ## 3. Kiểm thử từng module
 
@@ -143,6 +125,8 @@ Simulator
 - Station ID không hợp lệ.
 - API nhận station không tồn tại.
 
+![Ingestion evidence](/images/5-Workshop/5.3-DevOps/5.3-3-ingestion-evidence.png)
+
 ## 5. Biểu mẫu kết quả
 
 ```text
@@ -154,36 +138,6 @@ Status: Pass / Fail
 Evidence:
 Owner:
 ```
-
-{{% notice info %}}
-📸 **Ảnh cần chụp 03 — Evidence ingestion**
-
-Chụp MQTT Test Client hoặc object mới trong S3 Raw.
-
-**Tên ảnh:** `ingestion-evidence.png`
-
-**Codex chèn ảnh sau phần Integration Testing.**
-{{% /notice %}}
-
-{{% notice info %}}
-📸 **Ảnh cần chụp 04 — Evidence ML hoặc API**
-
-Chọn SageMaker Training Job `Completed`, API response hoặc Swagger UI.
-
-**Tên ảnh:** `ml-api-evidence.png`
-
-**Codex chèn sau ảnh ingestion evidence.**
-{{% /notice %}}
-
-{{% notice info %}}
-📸 **Ảnh cần chụp 05 — SNS Alert**
-
-Chụp email cảnh báo hoặc log SNS publish thành công.
-
-**Tên ảnh:** `sns-alert-email.png`
-
-**Codex chèn sau ảnh ML/API.**
-{{% /notice %}}
 
 ## 6. Tiêu chí nghiệm thu
 

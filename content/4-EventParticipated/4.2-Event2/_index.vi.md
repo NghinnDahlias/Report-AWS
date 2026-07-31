@@ -1,7 +1,7 @@
 ---
 title: "Event 2: Capstone Solution Presentation"
 date: 2026-07-25
-weight: 1
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---

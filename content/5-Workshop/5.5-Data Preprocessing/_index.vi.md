@@ -1,7 +1,7 @@
 ---
 title: "Xây dựng Data Pipeline"
 date : 2026-07-31
-weight : 3
+weight : 5
 chapter : false
 pre : " <b> 5.3. </b> "
 ---

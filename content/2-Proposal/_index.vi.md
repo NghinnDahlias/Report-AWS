@@ -1,4 +1,4 @@
----
+﻿---
 title: "Bản đề xuất"
 date: 2026-07-31
 weight: 2
@@ -54,7 +54,7 @@ Telemetry Simulator
 -> Amazon SNS Email
 ```
 
-![Kien truc tong the Local AQI Forecasting](/images/2-Proposal/5.3-devops-local-aqi-final-architecture.png)
+![Kien truc tong the Local AQI Forecasting]({{< relURL "images/2-Proposal/5.3-devops-local-aqi-final-architecture.png" >}})
 
 Các chức năng chính của hệ thống gồm:
 
@@ -578,3 +578,4 @@ Thay vì chỉ hiển thị chất lượng không khí tại thời điểm hi�
 ### 9. Tài liệu tham khảo
 
 - GitHub repository: [NghinnDahlias/AWS-FCJ-local_aqi_forecast](https://github.com/NghinnDahlias/AWS-FCJ-local_aqi_forecast)
+

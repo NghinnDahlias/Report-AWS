@@ -1,4 +1,4 @@
----
+﻿---
 title: "Project Coordination"
 date: 2026-07-31
 weight: 2
@@ -50,9 +50,9 @@ Done
 
 A task is only moved to `Done` when it has a real output and supporting evidence. If a task is blocked, the team must state clearly which person, resource, or dependency is causing the blockage.
 
-![GitHub project board](/images/5-Workshop/5.3-DevOps/5.3-2-github-project-board.png)
+![GitHub project board]({{< relURL "images/5-Workshop/5.3-DevOps/5.3-2-github-project-board.png" >}})
 
-![GitHub task example](/images/5-Workshop/5.3-DevOps/5.3-2-github-task-example.png)
+![GitHub task example]({{< relURL "images/5-Workshop/5.3-DevOps/5.3-2-github-task-example.png" >}})
 
 ## 3. Dependency & Integration Coordination
 
@@ -139,7 +139,7 @@ Documentation is grouped by content type:
 - demo script
 - evidence checklist
 
-![Project docs structure](/images/5-Workshop/5.3-DevOps/5.3-2-project-docs-structure.png)
+![Project docs structure]({{< relURL "images/5-Workshop/5.3-DevOps/5.3-2-project-docs-structure.png" >}})
 
 ## 6. Shared Definition of Done
 
@@ -160,3 +160,4 @@ A task is only accepted when:
 - The handoff points between teams are clearly identified
 - Blocked tasks are detected early
 - Documentation and evidence are standardized before final consolidation
+

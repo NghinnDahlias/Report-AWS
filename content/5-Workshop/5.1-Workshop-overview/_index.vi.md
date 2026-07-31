@@ -1,4 +1,4 @@
----
+﻿---
 title: "Giới thiệu"
 date: 2026-07-31
 weight: 1
@@ -52,7 +52,7 @@ MQTT Simulator
     -> Amazon SNS Email Alert
 ```
 
-![Kiến trúc tổng thể của dự án](/images/5-Workshop/5.1-Workshop-overview/5.3-devops-local-aqi-final-architecture.png)
+![Kiến trúc tổng thể của dự án]({{< relURL "images/5-Workshop/5.1-Workshop-overview/5.3-devops-local-aqi-final-architecture.png" >}})
 
 #### Cách đọc phần workshop
 
@@ -65,3 +65,4 @@ Mỗi vai trò được trình bày theo một cấu trúc chung:
 5. Evidence và cách demo.
 
 Cấu trúc này được giữ thống nhất để liên kết các phần thành một câu chuyện triển khai xuyên suốt từ đầu đến cuối.
+

@@ -1,4 +1,4 @@
-# ML Component: PM2.5 Time-Series Forecasting with Amazon SageMaker DeepAR
+﻿# ML Component: PM2.5 Time-Series Forecasting with Amazon SageMaker DeepAR
 
 **Project:** Local AQI Forecasting & Alert System
 **Role:** ML Engineer
@@ -406,7 +406,7 @@ Mean: [9.3060703278, 9.3919620514, 9.3067531586, 9.3091573715, 9.2927675247]...
 
 #### Evaluation Plot
 
-![DeepAR SageMaker Evaluation](/images/5-Workshop/5.6-Machine-learning/deepar_sagemaker_evaluation.png)
+![DeepAR SageMaker Evaluation]({{< relURL "images/5-Workshop/5.6-Machine-learning/deepar_sagemaker_evaluation.png" >}})
 
 Three-panel evaluation:
 
@@ -564,3 +564,4 @@ Consolidate all ML work into a production-ready state, finalise the Backend API 
 - **Per-station fine-tuning:** Train a dedicated model for `station3` (highest pollution complexity) to reduce the remaining residual error.
 - **Serverless Inference:** Replace the always-on endpoint with SageMaker Serverless Inference to eliminate idle cost, appropriate for the hourly call frequency.
 - **Automated retraining:** Schedule a monthly SageMaker Pipeline to retrain with newly accumulated Firehose data from S3.
+

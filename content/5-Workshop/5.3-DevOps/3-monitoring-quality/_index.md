@@ -1,4 +1,4 @@
----
+﻿---
 title: "Monitoring & Quality Assurance"
 date: 2026-07-31
 weight: 3
@@ -45,7 +45,7 @@ Log location:
 Action in progress:
 ```
 
-![CloudWatch log events](/images/5-Workshop/5.3-DevOps/5.3-3-cloudwatch-log-events.png)
+![CloudWatch log events]({{< relURL "images/5-Workshop/5.3-DevOps/5.3-3-cloudwatch-log-events.png" >}})
 
 ## 3. Module-Level Testing
 
@@ -125,7 +125,7 @@ Simulator
 - Station ID is invalid.
 - The API receives a non-existent station.
 
-![Ingestion evidence](/images/5-Workshop/5.3-DevOps/5.3-3-ingestion-evidence.png)
+![Ingestion evidence]({{< relURL "images/5-Workshop/5.3-DevOps/5.3-3-ingestion-evidence.png" >}})
 
 ## 5. Result Template
 
@@ -156,3 +156,4 @@ Owner:
 - A consistent issue-reporting process is defined.
 - Integration evidence is collected.
 - Failures can be isolated by stage.
+

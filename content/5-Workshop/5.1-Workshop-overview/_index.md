@@ -1,4 +1,4 @@
----
+﻿---
 title : "Introduction"
 date : 2026-07-31
 weight : 1
@@ -52,7 +52,7 @@ MQTT Simulator
     -> Amazon SNS Email Alert
 ```
 
-![Overall project architecture](/images/5-Workshop/5.1-Workshop-overview/5.3-devops-local-aqi-final-architecture.png)
+![Overall project architecture]({{< relURL "images/5-Workshop/5.1-Workshop-overview/5.3-devops-local-aqi-final-architecture.png" >}})
 
 
 #### How to read this workshop
@@ -66,3 +66,4 @@ Each role follows the same structure:
 5. Evidence and demo approach.
 
 This keeps the report consistent and makes the final demo easier to present as one continuous story.
+

@@ -1,4 +1,4 @@
----
+﻿---
 title : "Ingestion: Simulator -> IoT Core -> Firehose -> S3 Raw"
 date : 2026-07-31
 weight : 4
@@ -38,7 +38,7 @@ Kiem tra Firehose da duoc cau hinh de:
 raw/telemetry/
 ```
 
-![Lược đồ message telemetry](/images/5-Workshop/5.4-Ingestion/5.4-Message-schema.png)
+![Lược đồ message telemetry]({{< relURL "images/5-Workshop/5.4-Ingestion/5.4-Message-schema.png" >}})
 
 ---
 
@@ -244,9 +244,9 @@ Chay script simulator de bat dau gui du lieu:
 python simulator.py
 ```
 
-![Station gửi dữ liệu vào Firehose](/images/5-Workshop/5.4-Ingestion/5.4-station-sent-data-to-Firehouse.png)
+![Station gửi dữ liệu vào Firehose]({{< relURL "images/5-Workshop/5.4-Ingestion/5.4-station-sent-data-to-Firehouse.png" >}})
 
-![Record được gửi thành công](/images/5-Workshop/5.4-Ingestion/5.4-record%20sent.png)
+![Record được gửi thành công]({{< relURL "images/5-Workshop/5.4-Ingestion/5.4-record%20sent.png" >}})
 
 #### Kiem tra metric
 
@@ -305,7 +305,7 @@ Vi du ket qua kiem thu:
 Firehose da nhan 37 records va ghi thanh cong mot object da duoc buffer xuong Amazon S3.
 ```
 
-![Firehose ghi dữ liệu đã buffer xuống S3](/images/5-Workshop/5.4-Ingestion/5.4-Firehouse%20received%2037%20records%20and%20successfully%20delivered%20one%20buffered%20object%20to%20S3.png)
+![Firehose ghi dữ liệu đã buffer xuống S3]({{< relURL "images/5-Workshop/5.4-Ingestion/5.4-Firehouse%20received%2037%20records%20and%20successfully%20delivered%20one%20buffered%20object%20to%20S3.png" >}})
 
 #### Ket qua can chung minh
 
@@ -327,3 +327,4 @@ Simulator
 ```
 
 Dieu nay tao nen dau vao thuc te cho cac nhom Data Preparation, Machine Learning va Backend tiep tuc xu ly.
+

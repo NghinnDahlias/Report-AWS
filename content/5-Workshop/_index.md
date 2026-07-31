@@ -49,6 +49,6 @@ Simulator
 2. [Prerequisites](5.2-Prerequiste/)
 3. [DevOps: architecture, IAM, and account governance](5.3-DevOps/)
 4. [Ingestion: Simulator -> IoT Core -> Firehose -> S3 Raw](5.4-Ingestion/)
-5. [Data Preparation: data processing and normalization](5.5-Policy/)
-6. [Machine Learning: training and forecast generation](5.6-Cleanup/)
+5. [Data Preparation: data processing and normalization](5.5-Data%20Preprocessing/)
+6. [Machine Learning: training and forecast generation](5.6-Machine%20learning/)
 7. [Deploy the FastAPI backend](5.7-Backend-deployment/)

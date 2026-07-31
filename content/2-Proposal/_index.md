@@ -1,4 +1,4 @@
----
+﻿---
 title: "Proposal"
 date: 2026-07-31
 weight: 2
@@ -54,7 +54,7 @@ Telemetry Simulator
 -> Amazon SNS Email
 ```
 
-![Final architecture of the Local AQI Forecasting system](/images/2-Proposal/5.3-devops-local-aqi-final-architecture.png)
+![Final architecture of the Local AQI Forecasting system]({{< relURL "images/2-Proposal/5.3-devops-local-aqi-final-architecture.png" >}})
 
 The main system capabilities include:
 
@@ -578,3 +578,4 @@ Instead of only showing current air quality conditions, the system helps users a
 ### 9. References
 
 - GitHub repository: [NghinnDahlias/AWS-FCJ-local_aqi_forecast](https://github.com/NghinnDahlias/AWS-FCJ-local_aqi_forecast)
+

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Foundation & Governance"
 date: 2026-07-31
 weight: 1
@@ -20,7 +20,7 @@ Nhóm thống nhất triển khai toàn bộ tài nguyên tại:
 ap-southeast-1 - Asia Pacific (Singapore)
 ```
 
-![AWS region Singapore](/images/5-Workshop/5.3-DevOps/5.3-devops-aws-region-singapore.png)
+![AWS region Singapore]({{< relURL "images/5-Workshop/5.3-DevOps/5.3-devops-aws-region-singapore.png" >}})
 
 Các yêu cầu chung:
 
@@ -41,7 +41,7 @@ Hiện tại, nhóm sử dụng hai budget chính:
 
 Tại thời điểm kiểm tra, tổng chi phí phát sinh trong tháng vẫn ở mức thấp so với hạn mức đã thiết lập. Budget đang ở trạng thái `Healthy` và chưa có ngưỡng cảnh báo nào bị vượt qua.
 
-![AWS budget overview](/images/5-Workshop/5.3-DevOps/5.3-devops-aws-budget-overview.png)
+![AWS budget overview]({{< relURL "images/5-Workshop/5.3-DevOps/5.3-devops-aws-budget-overview.png" >}})
 
 ### Các ngưỡng cảnh báo chi phí
 
@@ -59,7 +59,7 @@ Tại thời điểm kiểm tra, tổng chi phí phát sinh trong tháng vẫn �
 
 Các ngưỡng này giúp nhóm phát hiện sớm việc sử dụng tài nguyên vượt kế hoạch và có biện pháp kiểm tra trước khi chi phí tăng cao.
 
-![AWS budget alerts](/images/5-Workshop/5.3-DevOps/5.3-devops-aws-budget-alerts.png)
+![AWS budget alerts]({{< relURL "images/5-Workshop/5.3-DevOps/5.3-devops-aws-budget-alerts.png" >}})
 
 ### Quy ước kiểm soát nội bộ
 
@@ -106,7 +106,7 @@ Việc kiểm tra quota sớm giúp nhóm:
 - tránh phụ thuộc vào một demo live nếu quota chưa sẵn sàng,
 - và chuẩn bị phương án dự phòng khi cần.
 
-![SageMaker service quota](/images/5-Workshop/5.3-DevOps/5.3-devops-sagemaker-service-quota.png)
+![SageMaker service quota]({{< relURL "images/5-Workshop/5.3-DevOps/5.3-devops-sagemaker-service-quota.png" >}})
 
 ## 5. Architecture, Naming & Tag Convention
 
@@ -150,4 +150,5 @@ ManagedBy=manual
 CostCenter=student-project
 ```
 
-![AWS resource tags](/images/5-Workshop/5.3-DevOps/5.3-devops-aws-resource-tags.png)
+![AWS resource tags]({{< relURL "images/5-Workshop/5.3-DevOps/5.3-devops-aws-resource-tags.png" >}})
+

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Foundation & Governance"
 date: 2026-07-31
 weight: 1
@@ -20,7 +20,7 @@ The team standardized all resource deployment in:
 ap-southeast-1 - Asia Pacific (Singapore)
 ```
 
-![AWS region Singapore](/images/5-Workshop/5.3-DevOps/5.3-devops-aws-region-singapore.png)
+![AWS region Singapore]({{< relURL "images/5-Workshop/5.3-DevOps/5.3-devops-aws-region-singapore.png" >}})
 
 Shared requirements:
 
@@ -41,7 +41,7 @@ At the moment, the team is using two main budgets:
 
 At the time of review, the monthly cost remained low compared with the configured limit. The budget was in `Healthy` status and no alert threshold had been exceeded.
 
-![AWS budget overview](/images/5-Workshop/5.3-DevOps/5.3-devops-aws-budget-overview.png)
+![AWS budget overview]({{< relURL "images/5-Workshop/5.3-DevOps/5.3-devops-aws-budget-overview.png" >}})
 
 ### Cost alert thresholds
 
@@ -59,7 +59,7 @@ For the `My Monthly Cost Budget`, the following thresholds were configured:
 
 These thresholds help the team detect abnormal resource usage early and respond before costs rise too far.
 
-![AWS budget alerts](/images/5-Workshop/5.3-DevOps/5.3-devops-aws-budget-alerts.png)
+![AWS budget alerts]({{< relURL "images/5-Workshop/5.3-DevOps/5.3-devops-aws-budget-alerts.png" >}})
 
 ### Internal control rules
 
@@ -106,7 +106,7 @@ Early quota checks help the team:
 - avoid depending entirely on a live demo when quota is not ready,
 - and prepare fallback options when necessary.
 
-![SageMaker service quota](/images/5-Workshop/5.3-DevOps/5.3-devops-sagemaker-service-quota.png)
+![SageMaker service quota]({{< relURL "images/5-Workshop/5.3-DevOps/5.3-devops-sagemaker-service-quota.png" >}})
 
 ## 5. Architecture, Naming & Tag Convention
 
@@ -150,4 +150,5 @@ ManagedBy=manual
 CostCenter=student-project
 ```
 
-![AWS resource tags](/images/5-Workshop/5.3-DevOps/5.3-devops-aws-resource-tags.png)
+![AWS resource tags]({{< relURL "images/5-Workshop/5.3-DevOps/5.3-devops-aws-resource-tags.png" >}})
+

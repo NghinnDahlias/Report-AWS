@@ -1,4 +1,4 @@
----
+﻿---
 title : "Ingestion: Simulator -> IoT Core -> Firehose -> S3 Raw"
 date : 2026-07-31
 weight : 4
@@ -38,7 +38,7 @@ Verify that Firehose is configured to:
 raw/telemetry/
 ```
 
-![Telemetry message schema](/images/5-Workshop/5.4-Ingestion/5.4-Message-schema.png)
+![Telemetry message schema]({{< relURL "images/5-Workshop/5.4-Ingestion/5.4-Message-schema.png" >}})
 
 ### Step 2: AWS IoT Core Security Configuration
 
@@ -236,9 +236,9 @@ Run the simulator script to start streaming data:
 python simulator.py
 ```
 
-![Station sending data to Firehose](/images/5-Workshop/5.4-Ingestion/5.4-station-sent-data-to-Firehouse.png)
+![Station sending data to Firehose]({{< relURL "images/5-Workshop/5.4-Ingestion/5.4-station-sent-data-to-Firehouse.png" >}})
 
-![Simulator record sent successfully](/images/5-Workshop/5.4-Ingestion/5.4-record sent.png)
+![Simulator record sent successfully]({{< relURL "images/5-Workshop/5.4-Ingestion/5.4-record sent.png" >}})
 
 #### Verify metrics
 
@@ -297,7 +297,7 @@ Example test result:
 Firehose received 37 records and successfully delivered one buffered object into Amazon S3.
 ```
 
-![Firehose delivered buffered records to S3](/images/5-Workshop/5.4-Ingestion/5.4-Firehouse%20received%2037%20records%20and%20successfully%20delivered%20one%20buffered%20object%20to%20S3.png)
+![Firehose delivered buffered records to S3]({{< relURL "images/5-Workshop/5.4-Ingestion/5.4-Firehouse%20received%2037%20records%20and%20successfully%20delivered%20one%20buffered%20object%20to%20S3.png" >}})
 
 #### Outcomes that must be proven
 
@@ -319,3 +319,4 @@ Simulator
 ```
 
 This creates the real upstream input required for the Data Preparation, Machine Learning, and Backend teams to continue.
+

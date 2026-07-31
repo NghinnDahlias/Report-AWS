@@ -1,4 +1,4 @@
----
+﻿---
 title: "Monitoring & Quality Assurance"
 date: 2026-07-31
 weight: 3
@@ -45,7 +45,7 @@ Log location:
 Action đang thực hiện:
 ```
 
-![CloudWatch log events](/images/5-Workshop/5.3-DevOps/5.3-3-cloudwatch-log-events.png)
+![CloudWatch log events]({{< relURL "images/5-Workshop/5.3-DevOps/5.3-3-cloudwatch-log-events.png" >}})
 
 ## 3. Kiểm thử từng module
 
@@ -125,7 +125,7 @@ Simulator
 - Station ID không hợp lệ.
 - API nhận station không tồn tại.
 
-![Ingestion evidence](/images/5-Workshop/5.3-DevOps/5.3-3-ingestion-evidence.png)
+![Ingestion evidence]({{< relURL "images/5-Workshop/5.3-DevOps/5.3-3-ingestion-evidence.png" >}})
 
 ## 5. Biểu mẫu kết quả
 
@@ -156,3 +156,4 @@ Owner:
 - Có quy trình báo lỗi thống nhất.
 - Có evidence kiểm thử integration.
 - Lỗi có thể được xác định theo từng chặng.
+

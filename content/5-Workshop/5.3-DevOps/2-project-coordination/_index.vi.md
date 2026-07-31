@@ -1,4 +1,4 @@
----
+﻿---
 title: "Project Coordination"
 date: 2026-07-31
 weight: 2
@@ -50,9 +50,9 @@ Done
 
 Task chi duoc chuyen sang `Done` khi co output thuc te va evidence di kem. Neu task bi chan, can ghi ro dang blocked boi thanh vien nao, resource nao, hoac phu thuoc vao dau ra nao.
 
-![GitHub project board](/images/5-Workshop/5.3-DevOps/5.3-2-github-project-board.png)
+![GitHub project board]({{< relURL "images/5-Workshop/5.3-DevOps/5.3-2-github-project-board.png" >}})
 
-![GitHub task example](/images/5-Workshop/5.3-DevOps/5.3-2-github-task-example.png)
+![GitHub task example]({{< relURL "images/5-Workshop/5.3-DevOps/5.3-2-github-task-example.png" >}})
 
 ## 3. Dependency & Integration Coordination
 
@@ -139,7 +139,7 @@ Tai lieu duoc tong hop theo nhom noi dung:
 - demo script
 - evidence checklist
 
-![Project docs structure](/images/5-Workshop/5.3-DevOps/5.3-2-project-docs-structure.png)
+![Project docs structure]({{< relURL "images/5-Workshop/5.3-DevOps/5.3-2-project-docs-structure.png" >}})
 
 ## 6. Definition of Done chung
 
@@ -160,3 +160,4 @@ Mot task chi duoc nghiem thu khi:
 - Cac diem ban giao giua nhom duoc xac dinh ro
 - Task bi blocked duoc phat hien som
 - Tai lieu va evidence duoc chuan hoa truoc khi tong hop
+

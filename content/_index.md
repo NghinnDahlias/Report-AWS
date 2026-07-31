@@ -1,6 +1,6 @@
 ---
 title: "Internship Report"
-date: 206-31-07
+date: 2026-07-31
 weight: 1
 chapter: false
 ---

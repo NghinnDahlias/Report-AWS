@@ -2,10 +2,10 @@
 
 title: "Dọn dẹp tài nguyên"
 date: 2026-07-31
-weight: 6
+weight: 9
 chapter: false
-pre: " <b> 6. </b> "
---------------------
+pre: " <b> 5.9. </b> "
+---
 
 ## Tổng quan
 

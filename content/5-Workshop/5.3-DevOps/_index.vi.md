@@ -6,8 +6,6 @@ chapter: false
 pre: "<b>5.3. </b>"
 ---
 
-# DevOps, Integration & Quality Assurance
-
 Trong du an **Local AQI Forecasting & Alert System**, vai tro DevOps tap trung vao viec chuan hoa moi truong AWS, kiem soat chi phi, dieu phoi kien truc va tien do, giam sat he thong, kiem thu tich hop va chuan bi demo.
 
 Noi dung duoc chia thanh bon nhom:

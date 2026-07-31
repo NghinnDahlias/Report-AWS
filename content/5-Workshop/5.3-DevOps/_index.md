@@ -6,7 +6,6 @@ chapter: false
 pre: "<b>5.3. </b>"
 ---
 
-# DevOps, Integration & Quality Assurance
 
 This section covers AWS environment standardization, cost control, architecture and schedule coordination, system monitoring, integration testing, and final demo preparation for the **Local AQI Forecasting & Alert System** project.
 

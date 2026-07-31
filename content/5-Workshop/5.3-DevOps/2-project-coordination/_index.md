@@ -6,7 +6,6 @@ chapter: false
 pre: "<b>5.3.2. </b>"
 ---
 
-# Project Coordination
 
 ## 1. Objective
 

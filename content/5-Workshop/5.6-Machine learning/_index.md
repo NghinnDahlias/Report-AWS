@@ -565,3 +565,10 @@ Consolidate all ML work into a production-ready state, finalise the Backend API 
 - **Serverless Inference:** Replace the always-on endpoint with SageMaker Serverless Inference to eliminate idle cost, appropriate for the hourly call frequency.
 - **Automated retraining:** Schedule a monthly SageMaker Pipeline to retrain with newly accumulated Firehose data from S3.
 
+---
+title: "Machine Learning: training and forecast generation"
+date: 2026-07-31
+weight: 6
+chapter: false
+pre: " <b> 5.6. </b> "
+---

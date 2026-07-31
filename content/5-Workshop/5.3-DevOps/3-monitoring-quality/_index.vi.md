@@ -6,8 +6,6 @@ chapter: false
 pre: "<b>5.3.3. </b>"
 ---
 
-# Monitoring & Quality Assurance
-
 ## 1. Mục tiêu
 
 Theo dõi trạng thái hoạt động của các service, thu thập log cần thiết và kiểm thử toàn bộ luồng trước khi nghiệm thu.

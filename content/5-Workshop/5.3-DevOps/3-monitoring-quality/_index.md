@@ -6,7 +6,6 @@ chapter: false
 pre: "<b>5.3.3. </b>"
 ---
 
-# Monitoring & Quality Assurance
 
 ## 1. Objective
 

@@ -6,8 +6,6 @@ chapter: false
 pre: "<b>5.3.2. </b>"
 ---
 
-# Project Coordination
-
 ## 1. Muc tieu
 
 Quan ly tien do, phan cong trach nhiem va theo doi dependency giua cac module de tranh tinh trang tung thanh vien hoan thanh phan rieng nhung he thong khong the tich hop.

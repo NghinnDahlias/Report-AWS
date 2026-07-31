@@ -2,7 +2,7 @@
 title : "Kiểm tra API và chu kỳ cảnh báo"
 weight : 4
 chapter : false
-pre : " <b> 5.7.4 </b> "
+pre : " <b> 5.7.4. </b> "
 ---
 
 #### Kiểm tra Backend từ máy cá nhân

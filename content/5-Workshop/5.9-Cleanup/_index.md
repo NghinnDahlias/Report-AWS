@@ -1,40 +1,48 @@
 ---
-title : "Machine Learning: training and forecast generation"
+title : "Cleanup and Resource Teardown"
 date : 2026-07-31
-weight : 6
+weight : 9
 chapter : false
-pre : " <b> 5.6. </b> "
+pre : " <b> 5.9. </b> "
 ---
 
 #### Role objective
 
-The Machine Learning role uses the processed dataset to train a PM2.5 forecasting model and generate forecast outputs for the next 24 hours.
+This section explains how the team shut down AWS resources after the workshop demo to avoid unnecessary cost while keeping the evidence and outputs needed for the final report.
 
-#### Technical goals
+#### Cleanup goals
 
-+ Read datasets from `local-aqi-dev-s3-processed`
-+ Split train / validation / test by time
-+ Train an appropriate time-series model
-+ Evaluate results with metrics such as MAE and RMSE
-+ Save the model artifact and forecast output
++ Back up the required raw data, processed data, and outputs
++ Stop or delete compute resources that continue to incur cost
++ Remove integration resources that are no longer needed
++ Verify that no unexpected AWS charges remain after teardown
 
-#### Writing template for this section
+#### Suggested cleanup flow
 
-Once the team provides real implementation details and evidence, this section will be written as:
+1. Back up the required evidence from Amazon S3 and local outputs.
+2. Delete the SageMaker endpoint, endpoint configuration, and model if they are no longer needed.
+3. Stop or terminate the EC2 instance used for the FastAPI backend.
+4. Remove IoT Rule, Firehose delivery stream, and related temporary integration resources.
+5. Delete SNS topics or subscriptions that were created only for the demo.
+6. Clean up S3 objects and buckets only after the necessary files have been saved.
+7. Review CloudWatch logs, IAM roles, Elastic IP, and other leftover billable resources.
+8. Check AWS Billing and Budgets one more time after teardown.
 
-1. Prepare train, validation, and test datasets.
-2. Explain why random splitting is not used.
-3. Configure the SageMaker training job or local fallback training if quota is not available.
-4. Review training logs, model artifacts, and evaluation metrics.
-5. Produce forecast result files for the API and alerting flow.
+#### Resources that usually need review
 
-#### Outcomes that must be proven
++ Amazon SageMaker Endpoint
++ Amazon EC2 Instance
++ Amazon Data Firehose
++ AWS IoT Core Rule
++ Amazon SNS Topic and Subscription
++ Amazon S3 Buckets
++ Amazon CloudWatch Log Groups
++ IAM roles created specifically for the project
 
-+ There is real evidence of a training job or local training run.
-+ Evaluation metrics are clearly reported.
-+ There is a forecast result for at least one station.
-+ There is a model artifact or output file that can be reused by the Backend.
+#### Expected outcome
+
+After cleanup, the account should no longer keep unnecessary workshop resources running, and the team should still retain the architecture screenshots, logs, datasets, and outputs needed for documentation and presentation.
 
 {{% notice note %}}
-The detailed Machine Learning content will be added after the team shares the final training job details, metrics, and forecast outputs.
+Delete S3 buckets, IAM roles, and IoT certificates only after confirming that all report evidence and demo artifacts have already been backed up.
 {{% /notice %}}

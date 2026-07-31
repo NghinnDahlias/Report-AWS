@@ -2,7 +2,7 @@
 title : "Chuẩn bị EC2 và IAM role"
 weight : 1
 chapter : false
-pre : " <b> 5.7.1 </b> "
+pre : " <b> 5.7.1. </b> "
 ---
 
 #### Tạo IAM role cho Backend

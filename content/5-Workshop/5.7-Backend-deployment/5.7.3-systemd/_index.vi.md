@@ -2,7 +2,7 @@
 title : "Khởi chạy Backend bằng systemd"
 weight : 3
 chapter : false
-pre : " <b> 5.7.3 </b> "
+pre : " <b> 5.7.3. </b> "
 ---
 
 #### Kiểm tra service

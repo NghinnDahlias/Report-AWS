@@ -2,7 +2,7 @@
 title : "Cài đặt và cấu hình Backend"
 weight : 2
 chapter : false
-pre : " <b> 5.7.2 </b> "
+pre : " <b> 5.7.2. </b> "
 ---
 
 #### Kết nối đến EC2

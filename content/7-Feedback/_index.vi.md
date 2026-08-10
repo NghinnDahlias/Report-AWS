@@ -28,6 +28,7 @@ pre: " <b> 7. </b> "
 
 ![Ảnh đại diện của bạn](/images/avatar.png)
 
+![Ảnh đại diện của bạn]({{< relURL "images//avatar.png" >}})
 
 
 ### Nội dung báo cáo
@@ -39,3 +40,4 @@ pre: " <b> 7. </b> "
 5.  [Workshop](5-Workshop/)
 6.  [Tự đánh giá](6-Self-evaluation/)
 7.  [Chia sẻ, đóng góp ý kiến](7-Feedback/)
+8.  [Tài liệu tham khảo](8-References/) 

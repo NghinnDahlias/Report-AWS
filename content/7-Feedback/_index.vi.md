@@ -1,5 +1,5 @@
 ---
-title: "Internship Report"
+title: "Báo cáo thực tập"
 date: 2026-07-31
 weight: 7
 chapter: false
@@ -26,7 +26,7 @@ pre: " <b> 7. </b> "
 
 &emsp; **Thời gian thực tập:** Từ ngày 15/06/2026 đến ngày 14/08/2026
 
-![Ảnh đại diện của bạn](/images/avatar.jpg)
+![Ảnh đại diện của bạn](/images/avatar.png)
 
 
 
